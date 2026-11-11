@@ -14,14 +14,13 @@
 
 用户发来这个仓库的链接、让你安装或开始设计时，先读完这一节再动手，按顺序做：
 
-1. **下载到用户的“文稿”文件夹**，位置固定为 `~/Documents/猫家具设计`：
-   - 文件夹已经存在：在里面运行 `git pull` 更新即可，不要动 `作品/` 里的内容。
-   - 文件夹不存在：`git clone https://github.com/chihaku1230-ship-it/cat-furniture-design-kit.git ~/Documents/猫家具设计`
-   - 电脑上没有 git，或者 clone 失败：下载 https://github.com/chihaku1230-ship-it/cat-furniture-design-kit/releases/latest/download/cat-furniture-kit.zip ，解压后把里面的 `猫家具设计` 文件夹放到 `~/Documents/`。
-   - 这一步需要联网，并且要写入工作区以外的位置。直接按上面的命令运行；被沙箱拦住时，申请权限再运行（理由写“下载猫家具设计工具”），用户点同意即可。不要凭猜测跳过这一步。
-   - 申请权限也不行时，才装到当前工作文件夹里的 `猫家具设计/`，并用大白话告诉她这个文件夹在哪。
-2. **读取 `~/Documents/猫家具设计/AGENTS.md`**。在这次对话里就按它工作，所有路径都以 `~/Documents/猫家具设计/` 为起点，从“第一次打开”那一节开始。
-3. 介绍时补一句：以后在 Codex 里新建对话时，选“文稿”里的“猫家具设计”文件夹，助手就会直接就位，不用再安装。
+1. **装到当前工作文件夹里，文件夹名叫 `猫家具设计`**：
+   - `猫家具设计/` 已经存在：在里面运行 `git pull` 更新即可，不要动 `作品/` 里的内容。
+   - 不存在：`git clone https://github.com/chihaku1230-ship-it/cat-furniture-design-kit.git 猫家具设计`（已经克隆成别的名字，就改名为 `猫家具设计`）。
+   - 电脑上没有 git，或者 clone 失败：下载 https://github.com/chihaku1230-ship-it/cat-furniture-design-kit/releases/latest/download/cat-furniture-kit.zip ，解压出里面的 `猫家具设计` 文件夹。
+   - 需要联网。被沙箱拦住时申请权限再运行（理由写“下载猫家具设计工具”），用户点同意即可。
+2. **读取 `猫家具设计/AGENTS.md`**，在这次对话里就按它工作，所有路径都以 `猫家具设计/` 为起点，从“第一次打开”那一节开始。
+3. 介绍时用大白话告诉她这个文件夹在电脑上的位置（例如“文稿 › Codex › 猫家具设计”），以后在 Codex 里新建对话时选这个文件夹，助手就会直接就位，不用再安装。
 
 不要让用户自己敲命令、找文件，也不要让用户注册任何账号。
 
